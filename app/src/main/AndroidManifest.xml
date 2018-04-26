@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.louis.gradetracker">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mylogo12"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserMainMenu" />
+        <activity android:name=".CalcAverage" />
+        <activity android:name=".ModuleLibrary" />
+        <activity android:name=".RealTimeChat" />
+        <activity android:name=".Chat_room" />
+        <activity android:name=".VideoActivity"/>
+        <activity android:name=".VideoActivity1"/>
+        <activity android:name=".VideoActivity2"/>
+        <activity android:name=".VideoActivity3"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context="com.example.louis.gradetracker.CalcAverage">
+
+    <Button
+        android:id="@+id/calcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="332dp"
+        android:onClick="onButtonClick"
+        android:text="@string/calcBtn"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterGradesTV" />
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="151dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/resultTV"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calcBtn" />
+
+    <TextView
+        android:id="@+id/enterGradesTV"
+        android:layout_width="251dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/enterGradesTV"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/no1"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:text="@string/no1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gradeTV" />
+
+    <EditText
+        android:id="@+id/no2"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/no2"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no1" />
+
+    <EditText
+        android:id="@+id/no3"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/no3"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no2" />
+
+    <EditText
+        android:id="@+id/no4"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/no4"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no3" />
+
+    <TextView
+        android:id="@+id/weightTV"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/weightTV"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterGradesTV" />
+
+    <TextView
+        android:id="@+id/gradeTV"
+        android:layout_width="102dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/gradeTv"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterGradesTV" />
+
+    <EditText
+        android:id="@+id/weight1ET"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="68dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weight1ET"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightTV" />
+
+    <EditText
+        android:id="@+id/weight2ET"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weight2ET"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight1ET" />
+
+    <EditText
+        android:id="@+id/weight3ET"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weight3ET"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight2ET" />
+
+    <EditText
+        android:id="@+id/weight4ET"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weight4ET"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight3ET" />
+
+</android.support.constraint.ConstraintLayout>

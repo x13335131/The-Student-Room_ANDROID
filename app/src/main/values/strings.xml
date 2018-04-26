@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GradeTracker</string>
+    <string name="button">Login</string>
+    <string name="button2">Dont have an account?Sign up</string>
+    <string name="textView4">Grade Tracker</string>
+    <string name="button3">register</string>
+    <string name="textView6">main menu</string>
+    <string name="email_et">email</string>
+    <string name="username_et">username</string>
+    <string name="reg_tv">Register</string>
+    <string name="password_et">password</string>
+    <string name="cpassword_et">confirm password</string>
+    <string name="attempts_tv">Attempts:</string>
+    <string name="login_tv">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="passwordHint_et">Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="buttonclick">View students results</string>
+    <string name="createModBtn">Create Module</string>
+    <string name="moduleET">Module</string>
+    <string name="createModuleTV">Create a module</string>
+    <string name="createBtn">Create Module</string>
+    <string name="mainMenuTV">Main Menu</string>
+    <string name="assignedModBtn">Assigned Modules</string>
+    <string name="getAverageBtn">Get Average</string>
+    <string name="enterGradesTV">Enter your grades</string>
+    <string name="calcBtn">Calculate</string>
+    <string name="resultTV">result</string>
+    <string name="weightTV">Weight</string>
+    <string name="gradeTV">grade (%)</string>
+    <string name="emailLogET">Email</string>
+    <string name="myModsTV">My Modules</string>
+</resources>

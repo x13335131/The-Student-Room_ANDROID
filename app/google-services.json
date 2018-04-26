@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "623207156514",
+    "firebase_url": "https://gradetracker-5d48c.firebaseio.com",
+    "project_id": "gradetracker-5d48c",
+    "storage_bucket": "gradetracker-5d48c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623207156514:android:da4cc36320f9c6b9",
+        "android_client_info": {
+          "package_name": "com.example.louis.gradetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623207156514-9fkftef845fq9111ascbpmsj6pn0tge4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.louis.gradetracker",
+            "certificate_hash": "db6c6fe57f937b3eb71b3f1cb9f6ffa79ef36206"
+          }
+        },
+        {
+          "client_id": "623207156514-fc92j0giaki1tid2ho05dfoc6m2ce6uh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.louis.gradetracker",
+            "certificate_hash": "27ac7cc2c46cd7e0d5e61583ca8ebbd7467ed13e"
+          }
+        },
+        {
+          "client_id": "623207156514-pt39kkggkv8loopiprbtkg1s89u52p9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54FGwH_iUWF9pSryWGs4Oez3cr2-VV2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623207156514-pt39kkggkv8loopiprbtkg1s89u52p9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
